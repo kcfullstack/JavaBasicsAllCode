@@ -1,3 +1,5 @@
+import com.kpc.java8.optional.OptionalDemo;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
@@ -10,4 +12,9 @@ void main() {
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
         IO.println("i = " + i);
     }
+
+    OptionalDemo od = new OptionalDemo();
+
+    od.OptionalCaseScenarios();
+
 }
